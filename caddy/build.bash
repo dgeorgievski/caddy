@@ -54,3 +54,4 @@ value="$(git -C "${git_repo}" diff-index --name-only HEAD)"
 ldflags+=("-X" "\"${name}=${value}\"")
 
 go build -ldflags "${ldflags[*]}" -o "${output_filename}"
+echo " -ldflags ${ldflags[*]} -o ${output_filename}"

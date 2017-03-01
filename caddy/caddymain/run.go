@@ -20,6 +20,7 @@ import (
 	_ "github.com/mholt/caddy/caddyhttp"
 
 	"github.com/mholt/caddy/caddytls"
+    _ "github.com/nicolasazrak/caddy-cache"
 	// This is where other plugins get plugged in (imported)
 )
 
